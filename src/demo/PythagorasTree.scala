@@ -139,10 +139,10 @@ object PythagorasFunc{
 
 object MainPythagors{
   def main(args: Array[String]): Unit = {
-     //new PythagorasTree()
-    val st = System.currentTimeMillis()
-     renderImage("/export/scratch1/ploeg/tree.png",8000,4000,translate(0,0.8) ** scale(1.0/5) **PythagorasFunc.tree(true,21,0.275*Pi))
-     System.out.println(((System.currentTimeMillis() - st) / 1000.0).toString)
+     new PythagorasTree()
+    //val st = System.currentTimeMillis()
+     //renderImage("/export/scratch1/ploeg/tree.png",8000,4000,translate(0,0.8) ** scale(1.0/5) **PythagorasFunc.tree(true,21,0.275*Pi))
+     //System.out.println(((System.currentTimeMillis() - st) / 1000.0).toString)
         
    }
 }
